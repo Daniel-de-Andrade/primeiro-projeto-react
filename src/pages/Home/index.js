@@ -1,13 +1,13 @@
-function Hello (){
-  return <h1>Hello World</h1>
-}
+import Header from "../../components/Header";
+import Main from "../../components/Main";
+import Footer from "../../components/Footer"
 
 function Home(params) {
   return (
     <div>
-      <Hello/>
-      <Hello/>
-      <Hello/>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   )
 }
